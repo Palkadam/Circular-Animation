@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.why-choose-area {
+    background: #101028;
+    padding-top: 113px;
+    padding-bottom: 113px;
+    position: relative;
+    overflow: hidden;
+    z-index: 9;
+    margin-bottom: 66px;
+}
+
+.section-title span {
+    color: #0195d9;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 5px;
+    z-index: 6;
+    position: relative;
+}
+
+.why-choose-title-cust .title {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    padding-bottom: 3px;
+    text-align: center;
+    margin-bottom: 46px;
+    text-transform: capitalize;
+}
+
+.why-choose-area .single-choose .icon-box {
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 200px;
+    border: 2px solid #252543;
+    background: radial-gradient(circle, #8383f9 0%, rgba(209, 209, 223, 0) 50%, rgba(255, 255, 255, 0) 74%);
+    position: relative;
+    display: inline-block;
+    z-index: 5;
+}
+
+.why-choose-area .single-choose .icon-box span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    z-index: -1;
+    animation: rotate-2 20s linear infinite;
+}
+
+@keyframes rotate-2{
+    0%{
+        transform: rotate(0deg);
+    }
+    0%{
+        transform: rotate(360deg);
+    }
+}
+
+.why-choose-area .single-choose .icon-box span::before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #fff;
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
+
+.why-choose-area .single-choose .icon-box span::after {
+    position: absolute;
+    content: "";
+    height: 7px;
+    width: 7px;
+    background: #fff;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
+
+.why-choose-area .single-choose .icon-box i {
+    font-size: 60px;
+    color: #fff;
+}
+
+.single-choose h4 {
+    font-size: 26px;
+    color: #fff;
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.single-choose-count {
+    font-size: 26px;
+    color: #fff;
+    padding-top: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
